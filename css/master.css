@@ -1,0 +1,106 @@
+﻿/* 全体の設定 */
+dd{
+    margin-bottom: 10px;
+}
+
+.title::before{
+    content: "--- "
+}
+.title::after{
+    content: " ---"
+}
+
+a{
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover{
+    opacity: 0.6;
+    transition: 0.8s;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0;
+
+}
+
+/* ヘッダーの設定 */
+header{
+    text-align: right;
+    padding: 10px;
+    background-image: url(../img/header.png);
+    height: 150px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+
+.current{
+    border-bottom: 1px solid skyblue;
+}
+
+/* メインの設定 */
+
+
+.ad_left{
+    float: left;
+    width: 240px;
+    height: 480px;
+    margin-top: 30px;
+    line-height: 0;
+
+    background-color: skyblue;
+}
+
+.ad_right{
+    float: right;
+    width: 240px;
+    height: 480px;
+    margin-top: 30px;
+    line-height: 0;
+
+    background-color: skyblue;
+}
+
+.ad a{
+    margin: 0;
+    padding: 0;
+    height: 0;
+}
+
+
+.container{
+    /* width: 500px; */
+    margin-left: 245px;
+    margin-right: 245px;
+}
+
+
+
+
+/* フッターの設定 */
+footer .container:first-child{
+    border-top: 1px solid white;
+}
+
+.contact ul{
+    margin: 0;
+    list-style-type: none;
+}
+
+.contact li{
+    display: inline-block;
+}
