@@ -55,37 +55,12 @@ nav li{
 /* メインの設定 */
 
 
-.ad_left{
-    float: left;
-    width: 240px;
-    height: 480px;
-    margin-top: 30px;
-    line-height: 0;
-
-    background-color: skyblue;
-}
-
-.ad_right{
-    float: right;
-    width: 240px;
-    height: 480px;
-    margin-top: 30px;
-    line-height: 0;
-
-    background-color: skyblue;
-}
-
-.ad a{
-    margin: 0;
-    padding: 0;
-    height: 0;
-}
 
 
 .container{
     /* width: 500px; */
-    margin-left: 245px;
-    margin-right: 245px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 
